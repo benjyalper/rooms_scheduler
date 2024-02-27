@@ -37,12 +37,7 @@ $(document).ready(function () {
         alert("חתלתוללללל....!");
     });
 
-    fetchDataByDate();
 
-    // Update end time options when start time changes
-    $('#startTime').on('change', function () {
-        updateEndTimeOptions();
-    });
 
 });
 
