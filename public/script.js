@@ -46,6 +46,10 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+    fetchDataByDate();
+});
+
 
 // Function to submit date
 // Function to submit date
