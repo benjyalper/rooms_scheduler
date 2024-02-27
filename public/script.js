@@ -37,16 +37,16 @@ $(document).ready(function () {
         alert("חתלתוללללל....!");
     });
 
-
-
-});
-
-$(document).ready(function () {
     fetchDataByDate();
+
+    // Update end time options when start time changes
+    $('#startTime').on('change', function () {
+        updateEndTimeOptions();
+    });
+
 });
 
 
-// Function to submit date
 // Function to submit date
 async function submitDate() {
     const selectedDate = $('#selectedDate').val();
