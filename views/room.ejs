@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -36,13 +36,13 @@
         <% } %>
         <div class="container-lg">
             <nav class="navbar1">
-                <button class="back-btn"><i class="fa fa-home fa-2x" aria-hidden="true"></i></button>
+                <a class="nav-link active drop-down-to-room-form-link" href="#" aria-current="page">עריכה</a>
                 <% if (roomNumber === 'מטבח'){ %>
                 <h3 style="font-size: 28px; margin-left: 20px;"><%= roomNumber %></h3>
                 <% } else { %>
                 <h3 style="font-size: 28px; margin-left: 20px;">חדר <%= roomNumber %></h3>
                 <% } %>
-                <a class="nav-link active drop-down-to-room-form-link" href="#" aria-current="page">עריכה</a>
+                <button class="back-btn"><i class="fa fa-home fa-2x" aria-hidden="true"></i></button>
             </nav>
             <div class="background-container">
                 <div class="calendar-container">
