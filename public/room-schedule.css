@@ -246,10 +246,6 @@ body {
         margin-left: 0px !important;
     }
 
-    .back-btn {
-        background-color: blue;
-    }
-
 }
 
 @media (max-width: 400px) {
